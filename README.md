@@ -3,8 +3,9 @@ Pre- or auto-generate any number of serials you want/need per product. Assign a 
 
 Requires the [WordPress For Unity Bridge](https://mybadstudios.com/product/wordpress-bridge/).
 
-<script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="mybad" data-description="Support me on Buy me a coffee!" data-message="Thank you for visiting. If you enjoy what you see, perhaps you could buy me a coffee?" data-color="#FF813F" data-position="Right" data-x_margin="18" data-y_margin="18">
-</script>
+If You enjoy my work, please consider buying me a coffee...
+
+[<img src="bmcbutton.png">](https://www.buymeacoffee.com/mybad)
 
 # The 60 second introduction
 
@@ -34,13 +35,13 @@ From within Unity, Bridge : Serials only exposes 3 functions to you:
 
 2 <b>ValidateRegistration</b><br>
 
-    * If at any time you wish to check if a game is registered to the logged in player, call this. It takes no parameters and will either return a bool named "valid" with a value of true or it will trigger your error response callback. 
-    * This is useful at the start of the game or if you just want to inject random checks to minimize any kind of game hacks
+  * If at any time you wish to check if a game is registered to the logged in player, call this. It takes no parameters and will either return a bool named "valid" with a value of true or it will trigger your error response callback. 
+  * This is useful at the start of the game or if you just want to inject random checks to minimize any kind of game hacks
 
 3 <b>FetchSerialNumber</b><br>
 
-    * Again, this takes no parameters, but be sure the user is logged in before you call this. <br>
-    * <b>NOTE:<em>The serial is NOT needed for anything after registration so the results of this function are purely for you to use in some cosmetic fasion</em></b>
+  * Again, this takes no parameters, but be sure the user is logged in before you call this. <br>
+  * <b>NOTE:<em>The serial is NOT needed for anything after registration so the results of this function are purely for you to use in some cosmetic fasion</em></b>
 
 ***
 
@@ -84,7 +85,7 @@ Used by the button on the registration panel in case you want to sell your game 
 
 # Automatic WooCommerce integration
 
-All WooCommerce integration for all Bridge extensions is enabled by installing the<br>[http://mybadstudios.com/wordpress-systems/wumoney/](Bridge : Money plugin) on your website.
+All WooCommerce integration for all Bridge extensions is enabled by installing the<br> [Bridge : Money plugin](http://mybadstudios.com/wordpress-systems/wumoney/) on your website.
 
 If you have that plugin installed and enabled then all you need to do to integrate Bridge : Serials into WooCommerce is to create a normal WooCommerce virtual, non-downloadable product and give it an SKU using the format WUSKU_GID_GAME (where GID is the actual Game ID of the game you are selling).<br>That is all. You are done!
 
